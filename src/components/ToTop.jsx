@@ -29,11 +29,11 @@ const ToTop = () => {
     return (
         <div className={`px-[20px] sm:px-[0px] sm:max-w-[728px] w-full relative`}>
             <button
-                className={`${styles.scrollupButton} ${isVisible ? styles.visible : ''}`}
+                className={`${styles.scrollupButton} ${isVisible ? styles.visible : ''} sm:w-[2.5rem] sm:h-[2.5rem] w-[30px] h-[30px] sm:bottom-[2rem] sm:right[2rem] bottom-[20px] right-[20px]`}
                 onClick={handleScrollUp}
                 aria-label="Scroll to top"
             >
-                <img src={arrowUp} alt="" className='w-[15px]' />
+                <img src={arrowUp} alt="" className='w-[10px] sm:w-[15px]' />
             </button>
         </div>
     );

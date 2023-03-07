@@ -168,3 +168,41 @@ nav a.active {
 .group:hover h3 {
   color: cyan;
 }
+
+.hover-green {
+  position: relative;
+}
+
+.hover-green::before {
+  content: '';
+  width: 0%;
+  height: 1.5px;
+  background-color: #2ee316;
+  position: absolute;
+  bottom: -2px;
+  border-radius: 50%;
+  transition: 0.3s ease-in-out;
+}
+
+.hover-green:hover::before{
+width: 100%;
+}
+
+.hover-cyan {
+  position: relative;
+}
+
+.hover-cyan::before {
+  content: '';
+  width: 0%;
+  height: 1px;
+  background-color: cyan;
+  position: absolute;
+  bottom: -2px;
+  border-radius: 50%;
+  transition: 0.3s ease-in-out;
+}
+
+.hover-cyan:hover::before{
+width: 100%;
+}

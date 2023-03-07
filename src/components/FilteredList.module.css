@@ -1,0 +1,29 @@
+.filterButton {
+    position: relative;
+}
+
+.filterButton::before {
+    width: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.filterButton:hover::before {
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    bottom: -3px;
+    position: absolute;
+}
+.filterButton.active {
+    position: relative;
+}
+
+.filterButton.active::before {
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    bottom: -3px;
+    position: absolute;
+}

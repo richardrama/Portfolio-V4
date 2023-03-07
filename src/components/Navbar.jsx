@@ -15,7 +15,7 @@ const Navbar = () => {
                     <li className='mr-4 text-[13px] sm:text-[16px] text-gray font-[200] hover:text-white'><NavLink to='/dashboard'>Dashboard</NavLink></li>
                 </ul>
             </nav>
-            <div className="w-[30px] sm:w-[40px] h-[30px] sm:h-[40px] sm:mr-[10px]">
+            <div className="w-[30px] sm:w-[40px] h-[30px] sm:h-[40px] sm:mt-[7px] sm:mr-[10px]">
                 <Link to="/about">
                     <img src={profileImg} alt="" className='rounded-[50%] ' />
                 </Link>

@@ -94,39 +94,12 @@ const HomeProfile = () => {
                                         Quote of The Day
                                     </h3>
                                     <p className='text-sm text-[#D0D0D0]'>
-                                        A little boost to start the day will be nice. Hahahaha
+                                        A little boost to start the day will be nice. Just be sure to stay confident all the time.
                                     </p>
                                 </div>
                             </a>
                         </div>
-                        <div className="group relative overflow-hidden rounded-md bg-darkGray transition-colors hover:bg-lightGray">
-                            <a href="https://richardrama.github.io/Random-Quotes/" target={'_blank'} className='overflow-hidden text-white'>
-                                <div className="relative">
-                                    <img src={port1} alt="" className='object-cover object-center' />
-                                    <div className="absolute left-3 bottom-3">
-                                        <ul className='flex gap-1'>
-                                            <li className='relative flex h-6 w-6 items-center justify-center overflow-hidden rounded-full border-[.2px] border-[#646464] bg-darkGray tracking-widest'>
-                                                <img src={html} className="absolute w-[0.9rem] h-[auto]" />
-                                            </li>
-                                            <li className='relative flex h-6 w-6 items-center justify-center overflow-hidden rounded-full border-[.2px] border-[#646464] bg-darkGray tracking-widest'>
-                                                <img src={css} className="absolute w-[0.9rem] h-[auto]" />
-                                            </li>
-                                            <li className='relative flex h-6 w-6 items-center justify-center overflow-hidden rounded-full border-[.2px] border-[#646464] bg-darkGray tracking-widest'>
-                                                <img src={js} className="absolute w-[0.9rem] h-[auto]" />
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div className="border-t-[.5px] border-zinc-400 p-3 text-center">
-                                    <h3 className='pb-1 font-semibold transition-colors'>
-                                        Quote of The Day
-                                    </h3>
-                                    <p className='text-sm text-[#D0D0D0]'>
-                                        A little boost to start the day will be nice. Hahahaha
-                                    </p>
-                                </div>
-                            </a>
-                        </div>
+
                     </div>
                     <div className="font-medium">
                         <Link to="/project" className='inline-flex items-center gap-2 text-gray transition-colors hover:text-white'>

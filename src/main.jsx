@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import './index.css'
 import { About, Blog, Dashboard, Profile, Project } from './pages';
+import Linktree from './pages/Linktree';
 
 const router = createBrowserRouter([
   {
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
   {
     path: "/project",
     element: <Project />,
+  },
+  {
+    path: "/linktree",
+    element: <Linktree />,
   },
 ]);
 

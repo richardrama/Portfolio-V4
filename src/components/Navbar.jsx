@@ -1,20 +1,24 @@
 import React from 'react'
 import styles from '../style'
+import { Link, NavLink } from "react-router-dom";
+import { profileImg } from '../assets';
 
 const Navbar = () => {
     return (
-        <div className='flex items-center justify-between'>
+        <div className='flex items-center justify-between sm:px-[0px]'>
             <nav>
                 <ul className={`flex py-6`}>
-                    <li className='mr-4 text-[16px] text-white font-[600]'><a href="#">Home</a></li>
-                    <li className='mr-4 text-[16px] text-gray font-[200] hover:text-white'><a href="#">About</a></li>
-                    <li className='mr-4 text-[16px] text-gray font-[200] hover:text-white'><a href="#">Blog</a></li>
-                    <li className='mr-4 text-[16px] text-gray font-[200] hover:text-white'><a href="#">Project</a></li>
-                    <li className='mr-4 text-[16px] text-gray font-[200] hover:text-white'><a href="#">Dashboard</a></li>
+                    <li className='mr-4 text-[13px] sm:text-[16px] text-gray font-[200] hover:text-white'><NavLink to='/'>Home</NavLink></li>
+                    <li className='mr-4 text-[13px] sm:text-[16px] text-gray font-[200] hover:text-white'><NavLink to="/about">About</NavLink></li>
+                    <li className='mr-4 text-[13px] sm:text-[16px] text-gray font-[200] hover:text-white'><NavLink to="/blog">Blog</NavLink></li>
+                    <li className='mr-4 text-[13px] sm:text-[16px] text-gray font-[200] hover:text-white'><NavLink to='/project'>Project</NavLink></li>
+                    <li className='mr-4 text-[13px] sm:text-[16px] text-gray font-[200] hover:text-white'><NavLink to='/dashboard'>Dashboard</NavLink></li>
                 </ul>
             </nav>
-            <div className="w-[30px] h-[30px] bg-white rounded-[50%]">
-
+            <div className="w-[30px] h-[30px] sm:mr-[50px]">
+                <Link to="/about">
+                    <img src={profileImg} alt="" className='rounded-[50%] ' />
+                </Link>
             </div>
         </div>
     )

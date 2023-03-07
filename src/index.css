@@ -159,3 +159,12 @@
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
 }
+
+nav a.active {
+  color: #FAFAFA;
+  font-weight: 600;
+}
+
+.group:hover h3 {
+  color: cyan;
+}

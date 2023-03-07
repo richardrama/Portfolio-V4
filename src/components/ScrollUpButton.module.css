@@ -1,0 +1,22 @@
+.scrollupButton {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background-color: #36393A;
+    color: #fff;
+    font-size: 2rem;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    z-index: 1000;
+  }
+  
+  .scrollupButton.visible {
+    opacity: 1;
+  }
+  

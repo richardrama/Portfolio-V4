@@ -1,8 +1,15 @@
 import React from 'react'
+import styles from '../style'
+import { Navbar } from '../components'
 
 const Profile = () => {
   return (
-    <div>Profile</div>
+    <div className="bg-black flex justify-center font-poppins">
+      <div className={`${styles.boxWidth}`}>
+        <Navbar />
+      </div>
+      About
+    </div>
   )
 }
 

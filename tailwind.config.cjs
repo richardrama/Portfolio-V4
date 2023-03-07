@@ -7,10 +7,12 @@ module.exports = {
       colors: {
         greenPrimary: "#2ee316",
         greenSecondary: "#21a210",
-        clayPrimay: "#1cdddd",
+        cyanPrimay: "#1cdddd",
         black: "#1D1F1F",
         white: "#FAFAFA",
         gray: "#989898",
+        darkGray: "#252929",
+        lightGray: "#36393A",
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],

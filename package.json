@@ -1,13 +1,11 @@
 {
-  "homepage": "https://www.richardrama.github.io/Portfolio-V4/",
   "name": "portfolio_v4",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://www.richardrama.github.io/portfolio-v4/",
   "scripts": {
     "dev": "vite",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "preview": "vite preview"
   },

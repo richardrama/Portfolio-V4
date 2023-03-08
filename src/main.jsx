@@ -1,13 +1,14 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App'
+import { About, Blog, Dashboard, Profile, Project } from './pages';
+import Linktree from './pages/Linktree';
+
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
 import './index.css'
-import { About, Blog, Dashboard, Profile, Project } from './pages';
-import Linktree from './pages/Linktree';
 
 const router = createBrowserRouter([
   {
